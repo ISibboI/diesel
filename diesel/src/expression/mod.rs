@@ -1,6 +1,5 @@
 //! AST types representing various typed SQL expressions.
 //!
-
 //! Almost all types implement either [`Expression`] or
 //! [`AsExpression`].
 //!

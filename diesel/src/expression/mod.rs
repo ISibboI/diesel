@@ -583,6 +583,8 @@ where
 ///     name: String,
 ///     #[diesel(select_expression = posts::columns::title)]
 ///     title: String,
+///     #[diesel(select_expression = diesel::now)]
+///     access_time: chrono::DateTime<chrono::Utc>,
 /// }
 ///
 /// # fn main() -> QueryResult<()> {
